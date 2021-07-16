@@ -13,7 +13,7 @@
 NOTE: All the style sheets were purged using PURGECSS to make lighter the project and remove every line of code that is not in use and just add more kilobytes to the project.
 
 ### LINK OF THE DEPLOYED PROJECT:
-Github page:
+Github page: https://juanjefry23.github.io/bitcoin-page/
 
 ### TECHNOLOGIES IN THIS PROJECT:
 ###### - HTML
