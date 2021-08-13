@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navigation">
+       <a href="index.html"> <div class="logo"></div></a>
+        <nav class="nav-bar">
+          <ul>
+            <a id="link1" href="index.html">
+              <li id="list1">HOME</li>
+              <div class="hide" id="image1"></div>
+            </a>
+            
+          </ul>
+        </nav>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <img src="img/cryptomonedas.png" />
+        </div>
+        <div class="one-half column">
+          <form id="formulario">
+            <div class="row">
+              <label>SELECT YOUR CURRENCY</label>
+              <select class="u-full-width" id="moneda" name="moneda">
+                <option value="" selected disabled>Select your currency</option>
+                <option value="USD">USD Dollar</option>
+                <option value="GBP">Pounds</option>
+                <option value="EUR">Euro</option>
+                <option value="MXN">Mexican Peso</option>
+                <option value="PERU">Peruvian New Sol</option>
+                <option value="ARG">Argentine Peso</option>
+              </select>
+            </div>
+
+            <div class="row">
+              <div>
+                <label>SELECT YOUR CRYPTOCURRENCY</label>
+                <select
+                  class="u-full-width"
+                  id="criptomonedas"
+                  name="criptomoneda"
+                >
+                  <option value="" selected disabled>
+                    Select your cryptocurrency
+                  </option>
+                </select>
+              </div>
+            </div>
+            <input
+              class="button-primary u-full-width"
+              type="submit"
+              value="QUOTE"
+            />
+
+            <div id="resultado" class="resultado"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
